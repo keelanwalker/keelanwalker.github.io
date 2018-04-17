@@ -1,0 +1,21 @@
+body {
+    background: #faf7f1;
+    font-family: 'Gudea', sans-serif;
+    font-family: 'Assistant', sans-serif;
+}
+
+a {
+    color: green;
+}
+
+p {
+    background: gray;
+    color: white;
+    padding: 30px;
+}
+
+ul {
+    background: gray;
+    color: white;
+    padding: 30px;
+}
