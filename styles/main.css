@@ -1,34 +1,35 @@
 html {
-	margin: 0;
-	padding: 0;
+	margin: 100px;
+	padding: 100px;
 	}
 
 body {
-    font-family: 'Gudea', sans-serif;
-    font-family: 'Assistant', sans-serif;
+    background: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    font-size: 20px;
 }
 
 h1 {
-    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
 }
+  
 
 h2 {
-    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
 }
 
 a {
-    color: whitesmoke;
+    color: green;
 }
 
 p {
-
-    color: white;
-    padding: 30px;
+    padding: 0px ;
 }
 
 ul {
-
-    color: white;
     padding: 30px;
 }
 
