@@ -1,27 +1,38 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+
 body {
-    background: #faf7f1;
     font-family: 'Gudea', sans-serif;
     font-family: 'Assistant', sans-serif;
 }
 
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
 a {
-    color: green;
+    color: whitesmoke;
 }
 
 p {
-    background: gray;
+
     color: white;
     padding: 30px;
 }
 
 ul {
-    background: gray;
+
     color: white;
     padding: 30px;
 }
 
 #special {
-    background: #faf7f1;
-    color: black
-}
 
+    color: rgb(255, 255, 255)
+}
