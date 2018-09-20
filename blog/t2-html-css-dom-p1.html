@@ -1,47 +1,91 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <title>Keelog - HTML, CSS and the DOM</title>
-        <Meta charset="UTF-8">
-        <link href="../styles/main.css" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <div>
-            <a id="top" href="../index.html">Home</a> | <a href="c1-reflection-blog.html">Reflections</a> | <a href="c1-time-and-habits-blog.html">Time & Habits</a> | <strong>HTML, CSS and the DOM</strong>
-        </div>
-        <div>
-            <h1>HTML, CSS and the DOM</h1>
-            <p>
-                During the Audacity tutorial, there was a very good analogy that describes the framework for a webpage where they compare it to building a house.  I really liked this analogy and it completely makes sense, but, if I were having to create my own analogy it would be as follows…
-            </p>
-            <p>
-                Imagine that building a webpage is like building a set of shelves on the wall that can grow as you need more room.  Theoretically, these shelves can have as many columns and rows as you want which can then be broken into separate compartments.  Think of these shelves and compartments as the invisible framework of a website which is created using HTML.            
-            </p>
-            <p>
-                Once your framework has been established you can then begin to populate the shelves and compartments with various objects such as books, magazines or even photo frames with pictures in them.  Although you can still use HTML to achieve this, CSS also allows you to make changes that affect the appearance of the various shelves, compartments and objects that are placed upon these shelves.
-            </p>
-            <p>
-                Let's say I want to place a photo or 'image' on the top shelf.  CSS not only allows me to position it exactly where on the shelf I want it to sit but I can also decide what kind of frame or border I want to surround it.  On the next shelf down I decide I want to place two photos and a book but I want them to look evenly spaced at 100 pixels apart.  I also realise that one of the photos is too big to fit and so it will need to be resized to fit.  To top it off, I want this part of the shelf to be painted a different colour.  Once again, this is all achieved using CSS.
-            </p>
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Keelan's Blog | HTML, CSS and the DOM</title>
+  <meta name="author" content="Keelan Walker">
+  <meta name="description" content="Keelan Walkers Dev Academy Blog">
 
-            <h2>What is meant by boxifying design?</h2>
-            <p>
-                This is a reference to how a page on a website is put together.  Everything on the page (objects, elements etc) is seen as a square or a box. These squares or boxes are then placed into the sections of the page which is also technically a box and these sections make up the page which is one big box.
-            </p>
-            <p>
-                Boxified design could also be applied or demonstrated in the shelf analogy that was used in the first part of this exercise.
-            </p>
 
-            <h2>What is the box model?</h2>
-            <p>
-                The ‘Box Model’ is a term used when referring to the way a website design and layout is created using CSS and is considered to be the foundation of layout on the web. </p>
-            <p>
-                Essentially, each element on our page is a perceived as a a rectangular box and it contains our content.  Surrounding our content within our box are a number of CSS layers (padding, border and margin) which can all be manipulated to affect how our content appears or behaves.
-            </p>
-        </div>
-        <div>
-            <a href="../index.html">Home</a> | <a href="#top">Back to Top</a>
-        </div>
-    </body>
+  <!-- MOBILE NEEDS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- STYLES -->
+
+  <!-- Normalize and Skeleton styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+  <!-- Our own "Mobile First" custom styles to override as needed and set responsive styles -->
+  <link rel="stylesheet" href="../styles/main.css">
+  <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+
+  <!-- SCRIPTS -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+          <div class="three columns">
+              <img class="logo" src="../images/digital_sig.png">
+          </div>
+  
+          <div class="nine columns">
+                <a href="../index.html">Home</a> | <a href="c1-reflection-blog.html">Reflections</a> | <a href="c1-time-and-habits-blog.html">Time & Habits</a> | <a href="t2-html-css-dom-p1.html">HTML, CSS and the DOM</a> | <a href="t2-html-css-dom-p2.html">HTML, CSS and the DOM P2</a> | <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
+          </div>
+      </div>
+        
+      <div class="row spacing">
+          <div class="twelve columns">
+              <H2>Keelan's Blog</H2>
+              <p><strong>Home | HTML, CSS and the DOM</strong></p>
+          </div>       
+      </div>
+
+      <div class="row">
+
+          <div class="four columns center">
+              <h4>HTML, CSS and the DOM</h4>
+              <img src="../images/loudnoise.jpg">
+          </div>
+
+          <div class="eight columns center">
+                
+              <p>During the Audacity tutorial, there was a very good analogy that describes the framework for a webpage where they compare it to building a house.  I really liked this analogy and it completely makes sense, but, if I were having to create my own analogy it would be as follows…</p>
+              <p>Imagine that building a webpage is like building a set of shelves on the wall that can grow as you need more room.  Theoretically, these shelves can have as many columns and rows as you want which can then be broken into separate compartments.  Think of these shelves and compartments as the invisible framework of a website which is created using HTML.</p>
+              <p>Once your framework has been established you can then begin to populate the shelves and compartments with various objects such as books, magazines or even photo frames with pictures in them.  Although you can still use HTML to achieve this, CSS also allows you to make changes that affect the appearance of the various shelves, compartments and objects that are placed upon these shelves.</p>
+              <p>Let's say I want to place a photo or 'image' on the top shelf.  CSS not only allows me to position it exactly where on the shelf I want it to sit but I can also decide what kind of frame or border I want to surround it.  On the next shelf down I decide I want to place two photos and a book but I want them to look evenly spaced at 100 pixels apart.  I also realise that one of the photos is too big to fit and so it will need to be resized to fit.  To top it off, I want this part of the shelf to be painted a different colour.  Once again, this is all achieved using CSS.</p>
+    
+              <h4>What is meant by boxifying design?</h4>
+              <p>This is a reference to how a page on a website is put together.  Everything on the page (objects, elements etc) is seen as a square or a box. These squares or boxes are then placed into the sections of the page which is also technically a box and these sections make up the page which is one big box.</p>
+              <p>Boxified design could also be applied or demonstrated in the shelf analogy that was used in the first part of this exercise.</p>
+    
+              <h4>What is the box model?</h4>
+              <p>The ‘Box Model’ is a term used when referring to the way a website design and layout is created using CSS and is considered to be the foundation of layout on the web. </p>
+              <p>Essentially, each element on our page is a perceived as a a rectangular box and it contains our content.  Surrounding our content within our box are a number of CSS layers (padding, border and margin) which can all be manipulated to affect how our content appears or behaves.</p>  
+          
+            </div>
+
+      <div class="row spacing">
+
+          <div class="eight columns">
+              <p>Work being done by <a href="mailto:keelanwalker@gmail.com">KEELAN WALKER</a></p>
+          </div>
+
+          <div class="four columns">
+              <p><a href="../index.html">Home</a> | <a href="#top">Back to Top</a></p>
+          </div>
+                  
+      </div>
+      <div class="row">
+          <div class="twelve columns">
+          </div>  
+      </div>
+    </div>
+
+  </body>
 </html>
