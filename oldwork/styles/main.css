@@ -14,3 +14,9 @@
 .spacing {
     padding: 20px
 }
+
+.border {
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
